@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f6f3ec" />
+    <meta
+      name="description"
+      content="Mister Holst — ваші улюблені фото на натуральному полотні. Виготовлення від 3 годин, макет у месенджері та доставка Україною."
+    />
+    <title>Mister Holst — спогади, які поруч</title>
+    <link
+      rel="preload"
+      href="assets/manrope-400.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Перейти до вмісту</a>
+    <div class="announcement">
+      <span class="announce-intro">Маленький жест. Великі емоції.</span>
+      <span>−50% на популярні розміри</span> <a href="#prices">Обрати свій →</a>
+    </div>
+    <header>
+      <a class="logo" href="#" aria-label="Mister Holst — головна"
+        ><span class="logomark">m<span>h</span></span
+        ><span>MISTER HOLST<small>МАЙСТЕРНЯ ТЕПЛИХ СПОГАДІВ</small></span></a
+      >
+      <nav id="nav">
+        <a href="#catalog">Наші картини</a><a href="#prices">Розміри та ціни</a
+        ><a href="#stories">Ваші емоції</a><a href="#faq">Питання</a>
+      </nav>
+      <a class="header-cta" href="#order">Створити картину <span>↗</span></a
+      ><button
+        id="menu"
+        aria-controls="nav"
+        aria-label="Відкрити меню"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <section class="hero hero-v3 wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="dot" aria-hidden="true"></span> MISTER HOLST · ДРУК
+            ВАШИХ ФОТО
+          </div>
+          <h1 id="hero-title">
+            Фото на полотні.<br /><em>Подарунок із сенсом.</em>
+          </h1>
+          <p>
+            Ваше фото — на натуральному полотні від 499 грн, з виготовленням від
+            3 годин після узгодження макета.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#order"
+              >Замовити картину <span aria-hidden="true">↗</span></a
+            >
+            <a
+              class="hero-secondary"
+              href="https://t.me/misterholst"
+              target="_blank"
+              rel="noopener"
+              >Написати у Telegram <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="hero-note">
+            <span>✓ Макет узгоджуємо з вами</span
+            ><span>✓ Спілкуємося без дзвінків</span>
+          </div>
+        </div>
+        <figure class="hero-product">
+          <img
+            src="assets/original-5.jpg"
+            alt="Готова картина на полотні з особистим фото пари в руках клієнтки Mister Holst"
+            width="768"
+            height="768"
+            fetchpriority="high"
+          />
+          <span class="hero-product-tag">ВАШЕ ФОТО → ГОТОВА КАРТИНА</span>
+          <figcaption>
+            <span>Особисте. Справжнє. Ваше.</span
+            ><span>Натуральне полотно</span>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="benefits wrap">
+        <article>
+          <span class="icon" aria-hidden="true"
+            ><svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 7v5l3 2" /></svg
+          ></span>
+          <div>
+            <h3>Готово від 3 годин</h3>
+            <p>Коли подарунок потрібен вже</p>
+          </div>
+        </article>
+        <article>
+          <span class="icon" aria-hidden="true"
+            ><svg viewBox="0 0 24 24">
+              <path d="M20 4C8 2 3 8 6 15c7 4 15-1 14-11Z M4 21l11-12" /></svg
+          ></span>
+          <div>
+            <h3>Природно красиві</h3>
+            <p>Натуральне полотно та дерево</p>
+          </div>
+        </article>
+        <article>
+          <span class="icon" aria-hidden="true"
+            ><svg viewBox="0 0 24 24">
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path d="M3 10h18 M7 15h4" /></svg
+          ></span>
+          <div>
+            <h3>Оплата при отриманні</h3>
+            <p>З мінімальним авансом</p>
+          </div>
+        </article>
+        <article>
+          <span class="icon" aria-hidden="true"
+            ><svg viewBox="0 0 24 24">
+              <path
+                d="M20 11a8 8 0 0 1-8 8H5l-3 3V11a9 9 0 0 1 18 0Z M7 10h8 M7 14h5"
+              /></svg
+          ></span>
+          <div>
+            <h3>Усе — в месенджері</h3>
+            <p>Без зайвих дзвінків</p>
+          </div>
+        </article>
+      </section>
+      <section id="catalog" class="wrap section">
+        <div class="section-top">
+          <div>
+            <div class="eyebrow">ОБЕРІТЬ СВОЮ ІСТОРІЮ</div>
+            <h2>Ваші спогади.<br />Ваш <em>особливий формат.</em></h2>
+          </div>
+          <p>Для тих, кого любите.<br />Для місця, яке називаєте домом.</p>
+        </div>
+        <div class="tabs" role="group" aria-label="Категорії картин">
+          <button class="active" data-filter="all" aria-pressed="true">
+            Усі картини</button
+          ><button data-filter="photo" aria-pressed="false">
+            Фото на полотні</button
+          ><button data-filter="art" aria-pressed="false">Дизайнерські</button
+          ><button data-filter="creative" aria-pressed="false">
+            Для творчості
+          </button>
+        </div>
+        <div class="products catalog-grid">
+          <article
+            class="product catalog-card"
+            data-type="photo"
+            aria-labelledby="catalog-title-0"
+          >
+            <div class="product-image">
+              <img
+                src="assets/original-4.jpg"
+                alt="Клієнтка тримає готовий фотоколаж на полотні Mister Holst"
+                loading="lazy"
+                width="768"
+                height="768"
+              />
+              <span class="tag">ВАШІ НАЙКРАЩІ МОМЕНТИ</span>
+            </div>
+            <div class="catalog-card-body">
+              <h3 id="catalog-title-0">Фото на полотні</h3>
+              <p class="catalog-description">
+                Улюблений знімок на натуральному полотні — для подарунка або
+                затишного дому.
+              </p>
+              <div class="catalog-purchase">
+                <div class="catalog-price">
+                  <strong>від 499 ₴</strong
+                  ><span>30 × 40 см · друк на полотні</span>
+                </div>
+                <a
+                  class="catalog-cta"
+                  href="#order"
+                  data-product="Фото на полотні"
+                  data-order-size="30×40"
+                  >Замовити картину<span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article
+            class="product catalog-card"
+            data-type="art"
+            aria-labelledby="catalog-title-1"
+          >
+            <div class="product-image">
+              <img
+                src="assets/original-9.jpg"
+                alt="Готовий художній портрет на полотні Mister Holst"
+                loading="lazy"
+                width="768"
+                height="768"
+              />
+              <span class="tag">З ХАРАКТЕРОМ</span>
+            </div>
+            <div class="catalog-card-body">
+              <h3 id="catalog-title-1">Художній портрет</h3>
+              <p class="catalog-description">
+                Дрім-арт, реалізм чи Love is… — оберіть настрій, а дизайнер
+                подбає про деталі.
+              </p>
+              <div class="catalog-purchase">
+                <div class="catalog-price">
+                  <strong>За запитом</strong
+                  ><span>Залежить від стилю та розміру</span>
+                </div>
+                <a
+                  class="catalog-cta"
+                  href="#order"
+                  data-product="Послуги дизайнера"
+                  >Обговорити портрет<span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article
+            class="product catalog-card"
+            data-type="creative"
+            aria-labelledby="catalog-title-2"
+          >
+            <div class="product-image">
+              <img
+                src="assets/original-5.jpg"
+                alt="Приклад персонального фото на полотні; фотооснова для замовлення картини за номерами, не готовий набір"
+                loading="lazy"
+                width="768"
+                height="768"
+              />
+              <span class="tag">ФОТООСНОВА · ПРИКЛАД</span>
+            </div>
+            <div class="catalog-card-body">
+              <h3 id="catalog-title-2">Картина за номерами</h3>
+              <p class="catalog-description">
+                Ваше фото стане основою набору, який ви розмалюєте власноруч.
+              </p>
+              <div class="catalog-purchase">
+                <div class="catalog-price">
+                  <strong>За запитом</strong
+                  ><span>Розрахуємо за фото та розміром</span>
+                </div>
+                <a
+                  class="catalog-cta"
+                  href="#order"
+                  data-product="Картина за номерами"
+                  >Розрахувати вартість<span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="catalog-foot">
+          <span
+            >Також створюємо модульні та інтер’єрні картини, реставруємо фото й
+            замінюємо фон.</span
+          ><a href="#order">Обговорити ідею ↗</a>
+        </div>
+      </section>
+      <section id="prices" class="pricing">
+        <div class="wrap pricing-grid">
+          <div>
+            <div class="eyebrow">БІЛЬШЕ ЕМОЦІЙ — ПРИЄМНІША ЦІНА</div>
+            <h2>Ідеальний розмір<br />для <em>вашої любові.</em></h2>
+            <p>
+              Від маленького знака уваги до головного акценту в інтер’єрі.
+              Оберіть формат — ми подбаємо про решту.
+            </p>
+            <div class="price-note">
+              −50% <span>на популярні розміри<br />фото на полотні</span>
+            </div>
+          </div>
+          <div class="price-table">
+            <div class="table-head">
+              <span>Розмір полотна</span><span>Ваша ціна</span>
+            </div>
+            <button data-size="30×40">
+              <span
+                >30 × 40 <small>см</small
+                ><small class="size-desc">Теплий знак уваги</small></span
+              ><span><del>998 ₴</del><strong>499 ₴</strong> ↗</span></button
+            ><button data-size="50×70" class="selected">
+              <span
+                >50 × 70 <small>см</small
+                ><small class="size-desc"
+                  >Улюблений формат <b>ХІТ</b></small
+                ></span
+              ><span><del>1 798 ₴</del><strong>899 ₴</strong> ↗</span></button
+            ><button data-size="100×100">
+              <span
+                >100 × 100 <small>см</small
+                ><small class="size-desc">Велика історія</small></span
+              ><span><del>3 798 ₴</del><strong>1 899 ₴</strong> ↗</span>
+            </button>
+            <p>
+              Потрібен інший розмір? Виготовляємо від 15×20 до 140×200 см.
+              Дизайн, лак і пакування розраховуються окремо. Остаточну вартість
+              та дію акції підтверджує менеджер.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="wrap section" id="how">
+        <div class="section-top">
+          <div>
+            <div class="eyebrow">ВІД ФОТО ДО «ВАУ!»</div>
+            <h2>Чотири кроки до <em>щирої усмішки.</em></h2>
+          </div>
+        </div>
+        <div class="steps">
+          <article>
+            <span>01</span>
+            <h3>Ви обираєте фото</h3>
+            <p>
+              Завантажте улюблений знімок і передайте його нам у зручному
+              месенджері.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Ми створюємо макет</h3>
+            <p>
+              Дизайнер перевіряє якість та узгоджує з вами кожну важливу деталь
+              у чаті.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Друкуємо з любов’ю</h3>
+            <p>
+              Виготовлення від 3 годин після узгодження. Художній дизайн
+              потребує більше часу.
+            </p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Ви даруєте емоції</h3>
+            <p>
+              Доставка Новою поштою зазвичай 1–3 дні. Міжнародні відправлення —
+              за домовленістю.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="wrap section stories" id="stories">
+        <div class="section-top">
+          <div>
+            <div class="eyebrow">НАЙКРАЩЕ В НАШІЙ РОБОТІ</div>
+            <h2>Картини справжні.<br /><em>Емоції — теж.</em></h2>
+          </div>
+          <div class="slider-controls">
+            <button id="prev" aria-label="Попередні фото">←</button
+            ><button id="next" aria-label="Наступні фото">→</button>
+          </div>
+        </div>
+        <div class="story-track" id="track">
+          <figure>
+            <img
+              src="assets/work.jpg"
+              alt="Друзі з подарунковою картиною Friends"
+              loading="lazy"
+            />
+            <figcaption>Для людей, з якими добре ♡</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/original-5.jpg"
+              alt="Клієнтська робота з галереї Mister Holst"
+              loading="lazy"
+            />
+            <figcaption>Для найтепліших моментів</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/original-6.jpg"
+              alt="Картина з офіційної галереї Mister Holst"
+              loading="lazy"
+            />
+            <figcaption>Подарунок з вашою історією</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/original-7.jpg"
+              alt="Фото готової роботи Mister Holst"
+              loading="lazy"
+            />
+            <figcaption>Спогади, до яких хочеться повертатися</figcaption>
+          </figure>
+        </div>
+        <div class="catalog-foot">
+          <span
+            >Фото з галереї Mister Holst. Більше історій та відгуків — у наших
+            соцмережах.</span
+          ><a
+            href="https://www.instagram.com/p/DdePb7oo6As/"
+            target="_blank"
+            rel="noopener"
+            >Дивитися в Instagram ↗</a
+          >
+        </div>
+      </section>
+      <section id="faq" class="wrap section faq">
+        <div>
+          <div class="eyebrow">ПРОСТО ПРО ВАЖЛИВЕ</div>
+          <h2>Можливо, ви<br /><em>хотіли запитати.</em></h2>
+          <p>
+            Залишилися питання?<br /><a
+              href="https://t.me/misterholst"
+              target="_blank"
+              rel="noopener"
+              >Напишіть нам у Telegram ↗</a
+            >
+          </p>
+        </div>
+        <div>
+          <details open>
+            <summary>Яка якість фото потрібна?</summary>
+            <p>
+              Надішліть оригінальний файл, бажано без стиснення месенджером.
+              Дизайнер перевірить, чи підійде він для обраного розміру. Старий
+              паперовий знімок можна відсканувати — можливість реставрації
+              обговоримо в чаті.
+            </p>
+          </details>
+          <details>
+            <summary>Чи пахнуть фарби?</summary>
+            <p>
+              Використовуємо латексні фарби на водній основі без різкого запаху,
+              натуральне полотно та дерев’яні підрамники.
+            </p>
+          </details>
+          <details>
+            <summary>Як швидко буде готова картина?</summary>
+            <p>
+              Звичайний друк — від 3 годин після узгодження макета. Для
+              дизайнерської обробки орієнтуйтеся на 1–2 дні. Точний термін
+              підтвердимо до оформлення.
+            </p>
+          </details>
+          <details>
+            <summary>Коли отримаю замовлення?</summary>
+            <p>
+              Доставка Україною зазвичай займає 1–3 дні після відправлення й
+              залежить від перевізника. Для доставки за кордон терміни та
+              вартість узгоджуємо окремо.
+            </p>
+          </details>
+          <details>
+            <summary>Чи можна оплатити при отриманні?</summary>
+            <p>
+              Так, з мінімальним авансом. Решту оплачуєте при отриманні у
+              відділенні. Послуги дизайнера оплачуються наперед; суму авансу й
+              комісію перевізника уточнить менеджер.
+            </p>
+          </details>
+          <details>
+            <summary>Можна додати подарункове пакування?</summary>
+            <p>
+              Так! Можна замовити преміум-пакування та захисний акриловий лак.
+              Доступні варіанти й ціну покажемо в месенджері.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section id="order" class="order">
+        <div class="wrap order-grid">
+          <div>
+            <div class="eyebrow">НАЙКРАЩІ ПОДАРУНКИ — ОСОБИСТІ</div>
+            <h2>
+              Ваш наступний<br />подарунок уже<br /><em>у вашій галереї.</em>
+            </h2>
+            <p>
+              Почнемо з одного фото?<br />Допоможемо обрати розмір, перевіримо
+              якість<br />і погодимо макет. Без реєстрації та дзвінків.
+            </p>
+            <div class="messengers">
+              <a
+                href="https://ig.me/m/mister_holst_kartina"
+                target="_blank"
+                rel="noopener"
+                >Instagram ↗</a
+              ><a href="https://t.me/misterholst" target="_blank" rel="noopener"
+                >Telegram ↗</a
+              ><a href="viber://chat?number=%2B380668880958">Viber ↗</a>
+            </div>
+            <a class="phone" href="tel:+380668880958">+38 (066) 888 09 58</a
+            ><small
+              >Доставка в Івано-Франківськ, по всій Україні та за кордон</small
+            >
+          </div>
+          <form id="order-form">
+            <div class="form-head">
+              <h3>Створімо вашу картину</h3>
+              <span>♡</span>
+            </div>
+            <label class="upload" id="drop"
+              ><input
+                type="file"
+                id="photo"
+                aria-describedby="photo-status photo-error"
+                aria-label="Додати або замінити фото"
+                accept="image/jpeg,image/png,image/webp"
+              /><img
+                id="preview"
+                alt="Попередній перегляд вашого фото"
+                hidden
+              /><span id="upload-label"
+                ><b>↑</b><strong>Додайте улюблене фото</strong
+                ><small>JPG, PNG, WEBP · до 20 МБ</small></span
+              ></label
+            >
+            <p id="photo-status" role="status" class="photo-status"></p>
+            <button id="remove-photo" type="button" class="remove-photo" hidden>
+              Прибрати фото
+            </button>
+            <p id="photo-error" role="alert" class="field-error"></p>
+            <div class="form-row">
+              <label
+                >Що створюємо?<select id="product">
+                  <option>Фото на полотні</option>
+                  <option>Послуги дизайнера</option>
+                  <option>Картина за номерами</option>
+                  <option>Модульна / інтер’єрна картина</option>
+                </select></label
+              ><label
+                >Розмір<select id="size">
+                  <option value="30×40">30 × 40 см</option>
+                  <option value="50×70" selected>50 × 70 см</option>
+                  <option value="100×100">100 × 100 см</option>
+                  <option>Інший розмір</option>
+                </select></label
+              >
+            </div>
+            <fieldset id="custom-size" hidden disabled>
+              <legend>Вкажіть потрібний розмір, см</legend>
+              <div class="custom-size-fields">
+                <label
+                  >Ширина<input
+                    id="custom-width"
+                    type="number"
+                    inputmode="numeric"
+                    min="15"
+                    max="200"
+                    step="1"
+                    required
+                /></label>
+                <span aria-hidden="true">×</span>
+                <label
+                  >Висота<input
+                    id="custom-height"
+                    type="number"
+                    inputmode="numeric"
+                    min="15"
+                    max="200"
+                    step="1"
+                    required
+                /></label>
+              </div>
+              <p>
+                Від 15×20 до 140×200 см; остаточну можливість виготовлення
+                підтвердить менеджер.
+              </p>
+            </fieldset>
+            <label
+              >Ваше ім’я<input
+                id="name"
+                aria-describedby="error"
+                placeholder="Як до вас звертатися?"
+                maxlength="80"
+                required
+                autocomplete="given-name" /></label
+            ><label class="checkbox"
+              ><input type="checkbox" id="gift" /> Додати подарункове
+              пакування</label
+            >
+            <div class="estimate" aria-live="polite">
+              <span>Орієнтовна вартість</span><strong id="total">899 ₴</strong>
+            </div>
+            <button class="button" type="submit">
+              Підготувати замовлення <span>↗</span>
+            </button>
+            <p class="form-note">
+              Фото показується лише на вашому пристрої. На наступному кроці
+              скопіюйте заявку та надішліть її разом із фото в месенджері.
+            </p>
+            <p id="error" role="alert"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      <a class="logo" href="#">MISTER HOLST <span>© 2026</span></a
+      ><span>Зберігаємо моменти. Створюємо емоції.</span
+      ><a href="https://misterholst.com/ru/" target="_blank" rel="noopener"
+        >Офіційний сайт ↗</a
+      >
+    </footer>
+    <a
+      href="#order"
+      class="mobile-cta"
+      aria-label="Створити свою картину, від 499 гривень"
+      >Створити свою картину <span>від 499 ₴ ↗</span></a
+    >
+    <dialog
+      id="handoff"
+      aria-labelledby="handoff-title"
+      aria-describedby="handoff-help"
+    >
+      <button class="close" aria-label="Закрити">×</button>
+      <div class="eyebrow">ЩЕ ОДИН КРОК</div>
+      <h2 id="handoff-title">Передайте вашу <em>історію.</em></h2>
+      <p id="handoff-help">
+        Заявку підготовлено, але ще не надіслано. Скопіюйте текст, відкрийте чат
+        і додайте оригінал фото.
+      </p>
+      <textarea
+        id="summary"
+        readonly
+        aria-label="Текст вашого замовлення"
+      ></textarea
+      ><button id="copy" class="button">Скопіювати заявку</button>
+      <div class="messengers">
+        <a href="https://t.me/misterholst" target="_blank" rel="noopener"
+          >Telegram ↗</a
+        ><a
+          href="https://ig.me/m/mister_holst_kartina"
+          target="_blank"
+          rel="noopener"
+          >Instagram ↗</a
+        ><a href="viber://chat?number=%2B380668880958">Viber ↗</a>
+      </div>
+      <p id="copy-status" role="status"></p>
+    </dialog>
+    <script src="app.js"></script>
+  </body>
+</html>
